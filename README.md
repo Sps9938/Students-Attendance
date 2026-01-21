@@ -28,6 +28,17 @@ This project is an attendance management system designed for teachers and studen
 # Workflow: Backend
 
 ## 1. Authentication System
+
+---
+
+## Test Automation (API)
+
+### Pytest API Testing
+Automated API tests are implemented using **Pytest** and **Requests** in Python. See `pytest/README.md` for setup and usage instructions.
+
+Sample test included: `pytest/test_health_check.py`.
+
+---
 The system supports login for teachers and users (admins) to access the platform securely.
 Teachers can manage their classes and student attendance after logging in.
 
